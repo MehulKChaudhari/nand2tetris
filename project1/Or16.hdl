@@ -7,7 +7,7 @@
  * for i = 0, ..., 15:
  * out[i] = a[i] And b[i] 
  */
-CHIP And16 {
+CHIP Or16 {
     IN a[16], b[16];
     OUT out[16];
 
